@@ -37,28 +37,45 @@
 </head>
 <body> 
 <div class="parent">
-<div class="about"> 
+  <div class="header"> <div class="cabecalho"><h3>Nome Aqui</h3><br><h5>Endereço | Bairro | Cidade | Estado | CEP 
+  </h5></div></div>
+ <div class="about"> 
    
-<div id="perfil">
+  <div id="perfil">
     <img src="https://cdn-icons-png.flaticon.com/512/4105/4105459.png" alt="Imagem" class="imagem">
-<h3 class="aboutme">Perfil</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
-<div id="contato"><h3>Contato</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p>Siga-me no LinkedIn:</p>
+    <h3 id="aboutme">Perfil</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+  <div id="contato"><h3>Contato</h3>
+    <div id="redessociais">
+    <p>Siga-me no LinkedIn:</p>
     <a href="https://www.linkedin.com/in/seu-perfil" target="_blank" rel="noopener">
       <i class="fab fa-linkedin fa-3x"></i>
-    </a>
+    </a><br>
     <p>Entre em contato pelo WhatsApp:</p>
-  <a href="https://api.whatsapp.com/send?phone=SEU-NUMERO" target="_blank" rel="noopener">
+    <a href="https://api.whatsapp.com/send?phone=SEU-NUMERO" target="_blank" rel="noopener">
     <i class="fab fa-whatsapp fa-3x"></i>
-  </a>
-  <p>Entre em contato pelo e-mail:</p>
-  <a href="mailto:SEU-EMAIL">
+    </a><br>
+    <p>Entre em contato pelo e-mail:</p>
+    <a href="mailto:SEU-EMAIL">
     <i class="far fa-envelope fa-3x"></i>
-  </a></div></div>
+    </a></div></div></div>
 <div class="skills"> 
     <h3>Habilidades</h3>
+    <div class="progress-container">
+      <div id="p">Python</div>
+      <div class="progress-bar" style="width: 50%;"></div>
+      <progress value="50" max="100"></progress>
+      <div id="p">CSS</div>
+      <progress value="75" max="100"></progress>
+      <div id="p">HTML</div>
+      <progress value="100" max="100"></progress>
+    </div>
 </div>
-<div class="header"> </div>
+
 <div class="middle"> 
+  <div id="objetivo">
+    <h4>Objetivo</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore </p>
+</div>
     <div id="educacao">
         <h4>Educação</h4>
         <h5>Ensino Superior Completo</h5>
@@ -67,6 +84,8 @@
     </div>
     <div id="Experiencia">
         <h4>Experiência</h4>
+        <ul><li>Empresa XXXXXX
+        </li></ul>
     </div>
 </div>
 <!-- <div class="middle2"> </div> -->
